@@ -1,4 +1,11 @@
-#Fetchs some tweets from a specific tweet user.
+=begin
+Fetch data from my twitter timeline. Based on Tweet fetching example available online the bastards handbook:
+http://ruby.bastardsbook.com/chapters/intro_tweet_fetch/
+Used gems:
+1. open-uri - To download content.
+2. oauth - For twitter authentication/authorization
+For details how to use oauth with twitter see: https://dev.twitter.com/oauth/overview/single-user
+=end
 require 'open-uri'
 require 'oauth'
 
